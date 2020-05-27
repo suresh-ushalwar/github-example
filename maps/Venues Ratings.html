@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_5a0cbea3c7a04df48f30c74d0b31fea5 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_5a0cbea3c7a04df48f30c74d0b31fea5" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_5a0cbea3c7a04df48f30c74d0b31fea5 = L.map(
+                                  'map_5a0cbea3c7a04df48f30c74d0b31fea5',
+                                  {center: [19.8733,75.3285],
+                                  zoom: 13,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_d515c78747954558bfaa6547318c7bf3 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_5a0cbea3c7a04df48f30c74d0b31fea5);
+        
+    
+
+            var marker_2694e7ce14764007a2435fcd42e6bdac = L.marker(
+                [19.8765,75.3453],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_5a0cbea3c7a04df48f30c74d0b31fea5);
+            
+    
+
+                var icon_4f34a15426f14addac82193d70e0ec1d = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2694e7ce14764007a2435fcd42e6bdac.setIcon(icon_4f34a15426f14addac82193d70e0ec1d);
+            
+    
+            var popup_747ed59b5f8948a3a0404df8e10b3df5 = L.popup({maxWidth: '300'});
+
+            
+                var html_0ced16a5799244b7b5c25dca88b847b6 = $('<div id="html_0ced16a5799244b7b5c25dca88b847b6" style="width: 100.0%; height: 100.0%;">Natural Ice Cream, Ahinsa Bhavan, Near Rajendra Tyre Services, Jalna Road, Mondha, Aurangabad</div>')[0];
+                popup_747ed59b5f8948a3a0404df8e10b3df5.setContent(html_0ced16a5799244b7b5c25dca88b847b6);
+            
+
+            marker_2694e7ce14764007a2435fcd42e6bdac.bindPopup(popup_747ed59b5f8948a3a0404df8e10b3df5);
+
+            
+        
+    
+
+            var marker_8b28e7d19e2e4cf4bf2deb72514aa85e = L.marker(
+                [19.8862,75.3636],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_5a0cbea3c7a04df48f30c74d0b31fea5);
+            
+    
+
+                var icon_fcbe1c1452544363ac648c0ad384b832 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8b28e7d19e2e4cf4bf2deb72514aa85e.setIcon(icon_fcbe1c1452544363ac648c0ad384b832);
+            
+    
+            var popup_90ec6b5a18bf4aaeaa58e91916854483 = L.popup({maxWidth: '300'});
+
+            
+                var html_c6f9b0ea51d74d209e6235d9ae838632 = $('<div id="html_c6f9b0ea51d74d209e6235d9ae838632" style="width: 100.0%; height: 100.0%;">Hotel Sai Sarang, House 35, Satyam Nagar, N5, CIDCO, Aurangabad</div>')[0];
+                popup_90ec6b5a18bf4aaeaa58e91916854483.setContent(html_c6f9b0ea51d74d209e6235d9ae838632);
+            
+
+            marker_8b28e7d19e2e4cf4bf2deb72514aa85e.bindPopup(popup_90ec6b5a18bf4aaeaa58e91916854483);
+
+            
+        
+    
+
+            var marker_992ac9335bd14fa0a984ff6d98cb93d1 = L.marker(
+                [19.8766,75.3461],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_5a0cbea3c7a04df48f30c74d0b31fea5);
+            
+    
+
+                var icon_6841960251684fefbcee6bd20c27f018 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_992ac9335bd14fa0a984ff6d98cb93d1.setIcon(icon_6841960251684fefbcee6bd20c27f018);
+            
+    
+            var popup_da6aea51a5654174820b0c9b5df3280f = L.popup({maxWidth: '300'});
+
+            
+                var html_71b3358e3c0f4fa1b0b62f4754a04d50 = $('<div id="html_71b3358e3c0f4fa1b0b62f4754a04d50" style="width: 100.0%; height: 100.0%;">Kream N Krunch, 2, Near Akashwani Circle, Mahesh Nagar, Jalna Road, Mondha, Aurangabad</div>')[0];
+                popup_da6aea51a5654174820b0c9b5df3280f.setContent(html_71b3358e3c0f4fa1b0b62f4754a04d50);
+            
+
+            marker_992ac9335bd14fa0a984ff6d98cb93d1.bindPopup(popup_da6aea51a5654174820b0c9b5df3280f);
+
+            
+        
+    
+
+            var marker_17b28c3a4b5a433cb4f05850ad6fbd28 = L.marker(
+                [19.9079,75.3457],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_5a0cbea3c7a04df48f30c74d0b31fea5);
+            
+    
+
+                var icon_adde2466f1384fc8bb97d9844080b4aa = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_17b28c3a4b5a433cb4f05850ad6fbd28.setIcon(icon_adde2466f1384fc8bb97d9844080b4aa);
+            
+    
+            var popup_1f1016528060467a9e1f8e3dca28750f = L.popup({maxWidth: '300'});
+
+            
+                var html_b89c1c656f4d45b8971fd94b31231b0c = $('<div id="html_b89c1c656f4d45b8971fd94b31231b0c" style="width: 100.0%; height: 100.0%;">Vivanta by Taj, Vivanta by Taj, Rauza Baugh, CIDCO, Aurangabad</div>')[0];
+                popup_1f1016528060467a9e1f8e3dca28750f.setContent(html_b89c1c656f4d45b8971fd94b31231b0c);
+            
+
+            marker_17b28c3a4b5a433cb4f05850ad6fbd28.bindPopup(popup_1f1016528060467a9e1f8e3dca28750f);
+
+            
+        
+    
+
+            var marker_a2b7d61832a6453cae967ca732664d98 = L.marker(
+                [19.85,75.363],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_5a0cbea3c7a04df48f30c74d0b31fea5);
+            
+    
+
+                var icon_2180198c54be40d6b459a38c3bf66dea = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a2b7d61832a6453cae967ca732664d98.setIcon(icon_2180198c54be40d6b459a38c3bf66dea);
+            
+    
+            var popup_86ff77b2fac94bec9f50d7effacd429c = L.popup({maxWidth: '300'});
+
+            
+                var html_d189c4e6b60c473a962931796594cce8 = $('<div id="html_d189c4e6b60c473a962931796594cce8" style="width: 100.0%; height: 100.0%;">Madhuban Garden Restaurant, Beed Bypass, Madhuban, Gadia Vihar, Aurangabad</div>')[0];
+                popup_86ff77b2fac94bec9f50d7effacd429c.setContent(html_d189c4e6b60c473a962931796594cce8);
+            
+
+            marker_a2b7d61832a6453cae967ca732664d98.bindPopup(popup_86ff77b2fac94bec9f50d7effacd429c);
+
+            
+        
+    
+
+            var marker_21079696b0954fba84a0fea99c020ebe = L.marker(
+                [19.8793,75.366],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_5a0cbea3c7a04df48f30c74d0b31fea5);
+            
+    
+
+                var icon_61c9a1c980d146e1afc82ad939116d80 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_21079696b0954fba84a0fea99c020ebe.setIcon(icon_61c9a1c980d146e1afc82ad939116d80);
+            
+    
+            var popup_aa6dfce2e3e0479fb750863fab4833ce = L.popup({maxWidth: '300'});
+
+            
+                var html_67ffe6fd44314190aec6dddcf4e0677a = $('<div id="html_67ffe6fd44314190aec6dddcf4e0677a" style="width: 100.0%; height: 100.0%;">Green Leaf, Shop 6-9, Fame Tapadiya Multiplex, Town Centre, N-1, Chikalthana, Aurangabad</div>')[0];
+                popup_aa6dfce2e3e0479fb750863fab4833ce.setContent(html_67ffe6fd44314190aec6dddcf4e0677a);
+            
+
+            marker_21079696b0954fba84a0fea99c020ebe.bindPopup(popup_aa6dfce2e3e0479fb750863fab4833ce);
+
+            
+        
+    
+
+            var marker_176b0354f40c4a70947c0c759a753ea1 = L.marker(
+                [19.8674,75.3259],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_5a0cbea3c7a04df48f30c74d0b31fea5);
+            
+    
+
+                var icon_5e6a35b4dfe240efbb0a7a2fa8749ec3 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_176b0354f40c4a70947c0c759a753ea1.setIcon(icon_5e6a35b4dfe240efbb0a7a2fa8749ec3);
+            
+    
+            var popup_89f370ce40b74b3180e2154b579584d0 = L.popup({maxWidth: '300'});
+
+            
+                var html_e2616ec8dd3e41f58cb8e0b0b670dfdf = $('<div id="html_e2616ec8dd3e41f58cb8e0b0b670dfdf" style="width: 100.0%; height: 100.0%;">Chai Villa, Ram Mandir Road, Near Tara Pan Center, New Usmanpura, Aurangabad</div>')[0];
+                popup_89f370ce40b74b3180e2154b579584d0.setContent(html_e2616ec8dd3e41f58cb8e0b0b670dfdf);
+            
+
+            marker_176b0354f40c4a70947c0c759a753ea1.bindPopup(popup_89f370ce40b74b3180e2154b579584d0);
+
+            
+        
+    
+
+            var marker_3881765238da403ab7a2815e2b4a294a = L.marker(
+                [19.8799,75.3642],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_5a0cbea3c7a04df48f30c74d0b31fea5);
+            
+    
+
+                var icon_093e9d10a2434a33b6a37794129fc341 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3881765238da403ab7a2815e2b4a294a.setIcon(icon_093e9d10a2434a33b6a37794129fc341);
+            
+    
+            var popup_23b85c29a2bf47a6a7d606bac4cf24c9 = L.popup({maxWidth: '300'});
+
+            
+                var html_d6ec3df6ad2d48c39d5b612bf030fe52 = $('<div id="html_d6ec3df6ad2d48c39d5b612bf030fe52" style="width: 100.0%; height: 100.0%;">Sanjay Pav Bhaji, Shop 1, Near SBI Bank, Opposite Ellora Complex N5, CIDCO, Aurangabad</div>')[0];
+                popup_23b85c29a2bf47a6a7d606bac4cf24c9.setContent(html_d6ec3df6ad2d48c39d5b612bf030fe52);
+            
+
+            marker_3881765238da403ab7a2815e2b4a294a.bindPopup(popup_23b85c29a2bf47a6a7d606bac4cf24c9);
+
+            
+        
+    
+
+            var marker_c6caa96de0904a91961cdfde3e141b1c = L.marker(
+                [19.8793,75.366],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_5a0cbea3c7a04df48f30c74d0b31fea5);
+            
+    
+
+                var icon_ccffddaa7657434d86c0dac5f3cbbd37 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c6caa96de0904a91961cdfde3e141b1c.setIcon(icon_ccffddaa7657434d86c0dac5f3cbbd37);
+            
+    
+            var popup_600f5644b2274abe956d166c4ea87289 = L.popup({maxWidth: '300'});
+
+            
+                var html_45df65b036d046a9b11fa7868f3230f6 = $('<div id="html_45df65b036d046a9b11fa7868f3230f6" style="width: 100.0%; height: 100.0%;">Green Leaf, Shop 6-9, Fame Tapadiya Multiplex, Town Centre, N-1, Chikalthana, Aurangabad</div>')[0];
+                popup_600f5644b2274abe956d166c4ea87289.setContent(html_45df65b036d046a9b11fa7868f3230f6);
+            
+
+            marker_c6caa96de0904a91961cdfde3e141b1c.bindPopup(popup_600f5644b2274abe956d166c4ea87289);
+
+            
+        
+    
+
+            var marker_4b523ba6f457468a8d3935799d3709ff = L.marker(
+                [19.8797,75.3232],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_5a0cbea3c7a04df48f30c74d0b31fea5);
+            
+    
+
+                var icon_21d8bea3f0d34319b27c164e8def4153 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4b523ba6f457468a8d3935799d3709ff.setIcon(icon_21d8bea3f0d34319b27c164e8def4153);
+            
+    
+            var popup_6dc60c91a97c43d4b65535e46aa2e910 = L.popup({maxWidth: '300'});
+
+            
+                var html_93ee5f6b58e94ed0bb8b96499b8a71d0 = $('<div id="html_93ee5f6b58e94ed0bb8b96499b8a71d0" style="width: 100.0%; height: 100.0%;">Delite Oven Fresh, Shop 4, Samarth Nagar Road, Nirala Bazar, Aurangabad</div>')[0];
+                popup_6dc60c91a97c43d4b65535e46aa2e910.setContent(html_93ee5f6b58e94ed0bb8b96499b8a71d0);
+            
+
+            marker_4b523ba6f457468a8d3935799d3709ff.bindPopup(popup_6dc60c91a97c43d4b65535e46aa2e910);
+
+            
+        
+    
+
+            var marker_417da5adc4db460e92d112ab94feb35a = L.marker(
+                [19.8771,75.3667],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_5a0cbea3c7a04df48f30c74d0b31fea5);
+            
+    
+
+                var icon_2e6d6dbbc81f4f9ba3627de9afcdd3fb = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_417da5adc4db460e92d112ab94feb35a.setIcon(icon_2e6d6dbbc81f4f9ba3627de9afcdd3fb);
+            
+    
+            var popup_ceffc1f37a0a4d73a018ed12e91b8b79 = L.popup({maxWidth: '300'});
+
+            
+                var html_e0c340eb3a4340ae9a9f0327d44fcd86 = $('<div id="html_e0c340eb3a4340ae9a9f0327d44fcd86" style="width: 100.0%; height: 100.0%;">Yours Cafe Shradda Restaurant, Below Hotel Sai Palace, N1, Near Saraswat Bank, CIDCO, Aurangabad</div>')[0];
+                popup_ceffc1f37a0a4d73a018ed12e91b8b79.setContent(html_e0c340eb3a4340ae9a9f0327d44fcd86);
+            
+
+            marker_417da5adc4db460e92d112ab94feb35a.bindPopup(popup_ceffc1f37a0a4d73a018ed12e91b8b79);
+
+            
+        
+    
+
+            var marker_6d76baa35cbe479994cabf27b8aeb98c = L.marker(
+                [19.8758,75.359],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_5a0cbea3c7a04df48f30c74d0b31fea5);
+            
+    
+
+                var icon_c863fbd77dff4c7eb45deea58854d090 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6d76baa35cbe479994cabf27b8aeb98c.setIcon(icon_c863fbd77dff4c7eb45deea58854d090);
+            
+    
+            var popup_ee650da4de0149d38cde2641d211d158 = L.popup({maxWidth: '300'});
+
+            
+                var html_d6770f08f07f4fa0a9cd2f06741bea7e = $('<div id="html_d6770f08f07f4fa0a9cd2f06741bea7e" style="width: 100.0%; height: 100.0%;">Madhuban Restaurant - Welcome Hotel Rama International, Welcome Hotel Rama International, Opposite High Court, CIDCO, Aurangabad</div>')[0];
+                popup_ee650da4de0149d38cde2641d211d158.setContent(html_d6770f08f07f4fa0a9cd2f06741bea7e);
+            
+
+            marker_6d76baa35cbe479994cabf27b8aeb98c.bindPopup(popup_ee650da4de0149d38cde2641d211d158);
+
+            
+        
+    
+
+            var marker_260cd5fcd8c946a6b80b18cd05565f13 = L.marker(
+                [19.8769,75.3725],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_5a0cbea3c7a04df48f30c74d0b31fea5);
+            
+    
+
+                var icon_ad348063646446ef9faab13698453284 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_260cd5fcd8c946a6b80b18cd05565f13.setIcon(icon_ad348063646446ef9faab13698453284);
+            
+    
+            var popup_dae7ef9b169a44d1831268b604dad451 = L.popup({maxWidth: '300'});
+
+            
+                var html_42bbe6a4fab44520acea33828314bfa0 = $('<div id="html_42bbe6a4fab44520acea33828314bfa0" style="width: 100.0%; height: 100.0%;">Cafe Coffee Day, Ground Floor, Prozone Mall, MIDC Industrial Area, Chikalthana, Aurangabad</div>')[0];
+                popup_dae7ef9b169a44d1831268b604dad451.setContent(html_42bbe6a4fab44520acea33828314bfa0);
+            
+
+            marker_260cd5fcd8c946a6b80b18cd05565f13.bindPopup(popup_dae7ef9b169a44d1831268b604dad451);
+
+            
+        
+    
+
+            var marker_74c061bd5687422daeee596611087f88 = L.marker(
+                [19.8749,75.3656],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_5a0cbea3c7a04df48f30c74d0b31fea5);
+            
+    
+
+                var icon_bcca17c9ad2c44c0b02275826a75f4aa = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_74c061bd5687422daeee596611087f88.setIcon(icon_bcca17c9ad2c44c0b02275826a75f4aa);
+            
+    
+            var popup_b15c38e184854a898f5c3035fc3f0183 = L.popup({maxWidth: '300'});
+
+            
+                var html_c0843079b0b349feb2b707f1167279f0 = $('<div id="html_c0843079b0b349feb2b707f1167279f0" style="width: 100.0%; height: 100.0%;">Republic of Noodles - Lemon Tree Hotel, Lemon Tree Hotel, Airport Road, CIDCO, Aurangabad</div>')[0];
+                popup_b15c38e184854a898f5c3035fc3f0183.setContent(html_c0843079b0b349feb2b707f1167279f0);
+            
+
+            marker_74c061bd5687422daeee596611087f88.bindPopup(popup_b15c38e184854a898f5c3035fc3f0183);
+
+            
+        
+    
+
+            var marker_7885b080c7394286ae0814d8044a02f9 = L.marker(
+                [19.8763,75.3481],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_5a0cbea3c7a04df48f30c74d0b31fea5);
+            
+    
+
+                var icon_facfe4daa317472e9512aee151deb7d4 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7885b080c7394286ae0814d8044a02f9.setIcon(icon_facfe4daa317472e9512aee151deb7d4);
+            
+    
+            var popup_fdb841ec7cc244fe9a0243acd8f53e3a = L.popup({maxWidth: '300'});
+
+            
+                var html_842e56520502490b9a474fb5934e87d6 = $('<div id="html_842e56520502490b9a474fb5934e87d6" style="width: 100.0%; height: 100.0%;">Cafe Coffee Day, Raghuveer Nagar, Jalna Road, Akashwani Square, Aurangabad</div>')[0];
+                popup_fdb841ec7cc244fe9a0243acd8f53e3a.setContent(html_842e56520502490b9a474fb5934e87d6);
+            
+
+            marker_7885b080c7394286ae0814d8044a02f9.bindPopup(popup_fdb841ec7cc244fe9a0243acd8f53e3a);
+
+            
+        
+    
+
+            var marker_f497e504fdd14ec187e1ee5cb30c4d8f = L.marker(
+                [19.8753,75.3342],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_5a0cbea3c7a04df48f30c74d0b31fea5);
+            
+    
+
+                var icon_75d080671db14e86bea6fdcd89b685c7 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f497e504fdd14ec187e1ee5cb30c4d8f.setIcon(icon_75d080671db14e86bea6fdcd89b685c7);
+            
+    
+            var popup_4f82e176e5b449e5b302a1ae6632f337 = L.popup({maxWidth: '300'});
+
+            
+                var html_f6bb601653ba47a999d4b8a706059d87 = $('<div id="html_f6bb601653ba47a999d4b8a706059d87" style="width: 100.0%; height: 100.0%;">Indian Street, Hotel Amarpreet, Pandit Nehru Marg, Jalna Road, Near, Mondha, Aurangabad</div>')[0];
+                popup_4f82e176e5b449e5b302a1ae6632f337.setContent(html_f6bb601653ba47a999d4b8a706059d87);
+            
+
+            marker_f497e504fdd14ec187e1ee5cb30c4d8f.bindPopup(popup_4f82e176e5b449e5b302a1ae6632f337);
+
+            
+        
+    
+
+            var marker_5daaa3b765ed4be1a697d9a8d525072a = L.marker(
+                [19.8802,75.3235],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_5a0cbea3c7a04df48f30c74d0b31fea5);
+            
+    
+
+                var icon_7d5fae97640d48ff848115e21dbc6167 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'darkgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5daaa3b765ed4be1a697d9a8d525072a.setIcon(icon_7d5fae97640d48ff848115e21dbc6167);
+            
+    
+            var popup_07b24afe98124f4d906749dd2285541c = L.popup({maxWidth: '300'});
+
+            
+                var html_860bc30fdf4743d29b390122c33977b2 = $('<div id="html_860bc30fdf4743d29b390122c33977b2" style="width: 100.0%; height: 100.0%;">Kareem&#39;s, A1-A3, Motiwala Complex, Below KFC Restaurant, Nirala Bazar, Aurangabad</div>')[0];
+                popup_07b24afe98124f4d906749dd2285541c.setContent(html_860bc30fdf4743d29b390122c33977b2);
+            
+
+            marker_5daaa3b765ed4be1a697d9a8d525072a.bindPopup(popup_07b24afe98124f4d906749dd2285541c);
+
+            
+        
+    
+
+            var marker_76937992a11c4b13af0bdbbba0522e27 = L.marker(
+                [19.88,75.3233],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_5a0cbea3c7a04df48f30c74d0b31fea5);
+            
+    
+
+                var icon_b50563f685054cee928a5e826b1e0ce9 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_76937992a11c4b13af0bdbbba0522e27.setIcon(icon_b50563f685054cee928a5e826b1e0ce9);
+            
+    
+            var popup_5d91b90e6a3a4f06b26b8e9cbcc8f64e = L.popup({maxWidth: '300'});
+
+            
+                var html_e7ff52ff43e8443d96e161268f4c06f1 = $('<div id="html_e7ff52ff43e8443d96e161268f4c06f1" style="width: 100.0%; height: 100.0%;">Cafe Coffee Day, Art Executive Hotel, Nirala Bazar, Aurangabad</div>')[0];
+                popup_5d91b90e6a3a4f06b26b8e9cbcc8f64e.setContent(html_e7ff52ff43e8443d96e161268f4c06f1);
+            
+
+            marker_76937992a11c4b13af0bdbbba0522e27.bindPopup(popup_5d91b90e6a3a4f06b26b8e9cbcc8f64e);
+
+            
+        
+    
+
+            var marker_e5a762cc9fca4f66a8c9cbd217ee60d2 = L.marker(
+                [19.902,75.3202],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_5a0cbea3c7a04df48f30c74d0b31fea5);
+            
+    
+
+                var icon_eb7972a2096340a390ad46b7719d6366 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e5a762cc9fca4f66a8c9cbd217ee60d2.setIcon(icon_eb7972a2096340a390ad46b7719d6366);
+            
+    
+            var popup_287b6b0314954ff78084bf6fbf066263 = L.popup({maxWidth: '300'});
+
+            
+                var html_7d0969f6ccbc4b209c20820ffd6db63f = $('<div id="html_7d0969f6ccbc4b209c20820ffd6db63f" style="width: 100.0%; height: 100.0%;">Mini Taj Family Restaurant, On The Way To Bibi Ka Maqbara, Begumpura, Shahgunj, Aurangabad</div>')[0];
+                popup_287b6b0314954ff78084bf6fbf066263.setContent(html_7d0969f6ccbc4b209c20820ffd6db63f);
+            
+
+            marker_e5a762cc9fca4f66a8c9cbd217ee60d2.bindPopup(popup_287b6b0314954ff78084bf6fbf066263);
+
+            
+        
+    
+
+            var marker_87b2ca042f194c7eb766560846011a6a = L.marker(
+                [19.8751,75.3547],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_5a0cbea3c7a04df48f30c74d0b31fea5);
+            
+    
+
+                var icon_e50d26abafbe4044b07f8da6a253f45a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_87b2ca042f194c7eb766560846011a6a.setIcon(icon_e50d26abafbe4044b07f8da6a253f45a);
+            
+    
+            var popup_45e7ac28d40d442b983c884f4c1e4b42 = L.popup({maxWidth: '300'});
+
+            
+                var html_8976bdbc98974847af519466b98020cc = $('<div id="html_8976bdbc98974847af519466b98020cc" style="width: 100.0%; height: 100.0%;">Hotel Atithi&#39;s Roof Top Restaurant, Hotel Atithi, Seven Hills, Jalna Road, CIDCO, Aurangabad</div>')[0];
+                popup_45e7ac28d40d442b983c884f4c1e4b42.setContent(html_8976bdbc98974847af519466b98020cc);
+            
+
+            marker_87b2ca042f194c7eb766560846011a6a.bindPopup(popup_45e7ac28d40d442b983c884f4c1e4b42);
+
+            
+        
+    
+
+            var marker_144b97d98b16401599bde97c624f1ddc = L.marker(
+                [19.9043,75.3565],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_5a0cbea3c7a04df48f30c74d0b31fea5);
+            
+    
+
+                var icon_50255abd3a8247bca0c5e1cb6a75ff41 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_144b97d98b16401599bde97c624f1ddc.setIcon(icon_50255abd3a8247bca0c5e1cb6a75ff41);
+            
+    
+            var popup_f99b1090c3b848c891e218828b300b7c = L.popup({maxWidth: '300'});
+
+            
+                var html_4c9345e24a5b40b9b395a9081e352e77 = $('<div id="html_4c9345e24a5b40b9b395a9081e352e77" style="width: 100.0%; height: 100.0%;">Lattitude - Vivanta by Taj, Vivanta by Taj, Rauza Baugh, CIDCO, Aurangabad</div>')[0];
+                popup_f99b1090c3b848c891e218828b300b7c.setContent(html_4c9345e24a5b40b9b395a9081e352e77);
+            
+
+            marker_144b97d98b16401599bde97c624f1ddc.bindPopup(popup_f99b1090c3b848c891e218828b300b7c);
+
+            
+        
+</script>

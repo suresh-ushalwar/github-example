@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_9ee6e6924c1641f895ed47a8d3283d1b {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_9ee6e6924c1641f895ed47a8d3283d1b" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_9ee6e6924c1641f895ed47a8d3283d1b = L.map(
+                                  'map_9ee6e6924c1641f895ed47a8d3283d1b',
+                                  {center: [19.8733,75.3285],
+                                  zoom: 13,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_47d68639b5e14c37be12c9bb4eee499d = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_9ee6e6924c1641f895ed47a8d3283d1b);
+        
+    
+            var circle_marker_44ac8179a10c45f5a15d168d52720bf9 = L.circleMarker(
+                [19.8765,75.3453],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#cc3535",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_9ee6e6924c1641f895ed47a8d3283d1b);
+            
+    
+            var popup_c3d1877d05ae4e64aab267aaf02fb83b = L.popup({maxWidth: '300'});
+
+            
+                var html_002d32d72678474aadaa726c725489f3 = $('<div id="html_002d32d72678474aadaa726c725489f3" style="width: 100.0%; height: 100.0%;">Lattitude - Vivanta by Taj, Ahinsa Bhavan, Near Rajendra Tyre Services, Jalna Road, Mondha, Aurangabad</div>')[0];
+                popup_c3d1877d05ae4e64aab267aaf02fb83b.setContent(html_002d32d72678474aadaa726c725489f3);
+            
+
+            circle_marker_44ac8179a10c45f5a15d168d52720bf9.bindPopup(popup_c3d1877d05ae4e64aab267aaf02fb83b);
+
+            
+        
+    
+            var circle_marker_367905e55874475a877327c647e99704 = L.circleMarker(
+                [19.8862,75.3636],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#cc3535",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_9ee6e6924c1641f895ed47a8d3283d1b);
+            
+    
+            var popup_2eebb1aa95804289ae202751a41bfb8f = L.popup({maxWidth: '300'});
+
+            
+                var html_77ff8a1e2b8d42b690ecd62d971934b7 = $('<div id="html_77ff8a1e2b8d42b690ecd62d971934b7" style="width: 100.0%; height: 100.0%;">Lattitude - Vivanta by Taj, House 35, Satyam Nagar, N5, CIDCO, Aurangabad</div>')[0];
+                popup_2eebb1aa95804289ae202751a41bfb8f.setContent(html_77ff8a1e2b8d42b690ecd62d971934b7);
+            
+
+            circle_marker_367905e55874475a877327c647e99704.bindPopup(popup_2eebb1aa95804289ae202751a41bfb8f);
+
+            
+        
+    
+            var circle_marker_cb736eb4806448439173c95703947be4 = L.circleMarker(
+                [19.8766,75.3461],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#cc3535",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_9ee6e6924c1641f895ed47a8d3283d1b);
+            
+    
+            var popup_5f8378405be24b18b9f22ec6089ca750 = L.popup({maxWidth: '300'});
+
+            
+                var html_8fe3d64296ea47c4932ebebf6ea0e70a = $('<div id="html_8fe3d64296ea47c4932ebebf6ea0e70a" style="width: 100.0%; height: 100.0%;">Lattitude - Vivanta by Taj, 2, Near Akashwani Circle, Mahesh Nagar, Jalna Road, Mondha, Aurangabad</div>')[0];
+                popup_5f8378405be24b18b9f22ec6089ca750.setContent(html_8fe3d64296ea47c4932ebebf6ea0e70a);
+            
+
+            circle_marker_cb736eb4806448439173c95703947be4.bindPopup(popup_5f8378405be24b18b9f22ec6089ca750);
+
+            
+        
+    
+            var circle_marker_7f9ae480968d4491b00a0c3ffe001232 = L.circleMarker(
+                [19.872,75.3252],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#cc3535",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_9ee6e6924c1641f895ed47a8d3283d1b);
+            
+    
+            var popup_7a904cee59234f8b9bd9e6ef767c0434 = L.popup({maxWidth: '300'});
+
+            
+                var html_e5a3062677324526a282a7609d65a7c9 = $('<div id="html_e5a3062677324526a282a7609d65a7c9" style="width: 100.0%; height: 100.0%;">Lattitude - Vivanta by Taj, Gopinath Chamber, Beside Jai Dev Travels, Aadalat Road, Gadia Vihar, Aurangabad</div>')[0];
+                popup_7a904cee59234f8b9bd9e6ef767c0434.setContent(html_e5a3062677324526a282a7609d65a7c9);
+            
+
+            circle_marker_7f9ae480968d4491b00a0c3ffe001232.bindPopup(popup_7a904cee59234f8b9bd9e6ef767c0434);
+
+            
+        
+    
+            var circle_marker_032138cfc76948d2a6fb81aabe4966a1 = L.circleMarker(
+                [19.9079,75.3457],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#cc3535",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_9ee6e6924c1641f895ed47a8d3283d1b);
+            
+    
+            var popup_448f835c25b749a39e85a536ee29a3c5 = L.popup({maxWidth: '300'});
+
+            
+                var html_d54b472d62274ffea71b852942cb5b50 = $('<div id="html_d54b472d62274ffea71b852942cb5b50" style="width: 100.0%; height: 100.0%;">Lattitude - Vivanta by Taj, Vivanta by Taj, Rauza Baugh, CIDCO, Aurangabad</div>')[0];
+                popup_448f835c25b749a39e85a536ee29a3c5.setContent(html_d54b472d62274ffea71b852942cb5b50);
+            
+
+            circle_marker_032138cfc76948d2a6fb81aabe4966a1.bindPopup(popup_448f835c25b749a39e85a536ee29a3c5);
+
+            
+        
+    
+            var circle_marker_cfa917150dcf489786b66dfe162ce2e7 = L.circleMarker(
+                [19.85,75.363],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#cc3535",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_9ee6e6924c1641f895ed47a8d3283d1b);
+            
+    
+            var popup_7964687efa894438949dd50c2fa38cfb = L.popup({maxWidth: '300'});
+
+            
+                var html_5ee96efed0ef4a5d94871e62a7f49ab9 = $('<div id="html_5ee96efed0ef4a5d94871e62a7f49ab9" style="width: 100.0%; height: 100.0%;">Lattitude - Vivanta by Taj, Beed Bypass, Madhuban, Gadia Vihar, Aurangabad</div>')[0];
+                popup_7964687efa894438949dd50c2fa38cfb.setContent(html_5ee96efed0ef4a5d94871e62a7f49ab9);
+            
+
+            circle_marker_cfa917150dcf489786b66dfe162ce2e7.bindPopup(popup_7964687efa894438949dd50c2fa38cfb);
+
+            
+        
+    
+            var circle_marker_62b1ca718d1348d2898a451ed61a8e44 = L.circleMarker(
+                [19.8793,75.366],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#cc3535",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_9ee6e6924c1641f895ed47a8d3283d1b);
+            
+    
+            var popup_3d0045f73b994099a26e913efacc9ca9 = L.popup({maxWidth: '300'});
+
+            
+                var html_2ebcc86927c74684a1b2d6240d4cb6ca = $('<div id="html_2ebcc86927c74684a1b2d6240d4cb6ca" style="width: 100.0%; height: 100.0%;">Lattitude - Vivanta by Taj, Shop 6-9, Fame Tapadiya Multiplex, Town Centre, N-1, Chikalthana, Aurangabad</div>')[0];
+                popup_3d0045f73b994099a26e913efacc9ca9.setContent(html_2ebcc86927c74684a1b2d6240d4cb6ca);
+            
+
+            circle_marker_62b1ca718d1348d2898a451ed61a8e44.bindPopup(popup_3d0045f73b994099a26e913efacc9ca9);
+
+            
+        
+    
+            var circle_marker_47c39f1bf4814f9c824e96c9a7204b0f = L.circleMarker(
+                [19.8674,75.3259],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#cc3535",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_9ee6e6924c1641f895ed47a8d3283d1b);
+            
+    
+            var popup_b36d2694267046baa5e0e376eb9a32a8 = L.popup({maxWidth: '300'});
+
+            
+                var html_e81b2e6b102c4491b2cb07c21d6ac071 = $('<div id="html_e81b2e6b102c4491b2cb07c21d6ac071" style="width: 100.0%; height: 100.0%;">Lattitude - Vivanta by Taj, Ram Mandir Road, Near Tara Pan Center, New Usmanpura, Aurangabad</div>')[0];
+                popup_b36d2694267046baa5e0e376eb9a32a8.setContent(html_e81b2e6b102c4491b2cb07c21d6ac071);
+            
+
+            circle_marker_47c39f1bf4814f9c824e96c9a7204b0f.bindPopup(popup_b36d2694267046baa5e0e376eb9a32a8);
+
+            
+        
+    
+            var circle_marker_5b7c32ec871447029937787d5b1844f3 = L.circleMarker(
+                [19.8799,75.3642],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#cc3535",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_9ee6e6924c1641f895ed47a8d3283d1b);
+            
+    
+            var popup_2839fa7bf2ea4cc6ba07764cff16d1ee = L.popup({maxWidth: '300'});
+
+            
+                var html_e25d1bc9e2d84be1abece763560dee1f = $('<div id="html_e25d1bc9e2d84be1abece763560dee1f" style="width: 100.0%; height: 100.0%;">Lattitude - Vivanta by Taj, Shop 1, Near SBI Bank, Opposite Ellora Complex N5, CIDCO, Aurangabad</div>')[0];
+                popup_2839fa7bf2ea4cc6ba07764cff16d1ee.setContent(html_e25d1bc9e2d84be1abece763560dee1f);
+            
+
+            circle_marker_5b7c32ec871447029937787d5b1844f3.bindPopup(popup_2839fa7bf2ea4cc6ba07764cff16d1ee);
+
+            
+        
+    
+            var circle_marker_fff1221327474b32a7c289bcb2fbd841 = L.circleMarker(
+                [19.8793,75.366],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#cc3535",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_9ee6e6924c1641f895ed47a8d3283d1b);
+            
+    
+            var popup_ad3828a4f0a649ea9c8d22d84b1943b2 = L.popup({maxWidth: '300'});
+
+            
+                var html_61f02391844e4bf19bbb8af34b0b606a = $('<div id="html_61f02391844e4bf19bbb8af34b0b606a" style="width: 100.0%; height: 100.0%;">Lattitude - Vivanta by Taj, Shop 6-9, Fame Tapadiya Multiplex, Town Centre, N-1, Chikalthana, Aurangabad</div>')[0];
+                popup_ad3828a4f0a649ea9c8d22d84b1943b2.setContent(html_61f02391844e4bf19bbb8af34b0b606a);
+            
+
+            circle_marker_fff1221327474b32a7c289bcb2fbd841.bindPopup(popup_ad3828a4f0a649ea9c8d22d84b1943b2);
+
+            
+        
+    
+            var circle_marker_84d66b42d8304c2091fe4812d6bb5657 = L.circleMarker(
+                [19.8714,75.3363],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#cc3535",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_9ee6e6924c1641f895ed47a8d3283d1b);
+            
+    
+            var popup_d39fc178188e4830806b05907993acd5 = L.popup({maxWidth: '300'});
+
+            
+                var html_a958d8aa9d0e4d198134b6652a02ba37 = $('<div id="html_a958d8aa9d0e4d198134b6652a02ba37" style="width: 100.0%; height: 100.0%;">Lattitude - Vivanta by Taj, Shop 133, Matrix Complex, Kalda Corner, Sindhi Colony, Aurangabad</div>')[0];
+                popup_d39fc178188e4830806b05907993acd5.setContent(html_a958d8aa9d0e4d198134b6652a02ba37);
+            
+
+            circle_marker_84d66b42d8304c2091fe4812d6bb5657.bindPopup(popup_d39fc178188e4830806b05907993acd5);
+
+            
+        
+    
+            var circle_marker_e99ccf5db3434e6a91758f4147311ba1 = L.circleMarker(
+                [19.8797,75.3232],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#cc3535",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_9ee6e6924c1641f895ed47a8d3283d1b);
+            
+    
+            var popup_1da8eedb65d44570a1cd615884136bf2 = L.popup({maxWidth: '300'});
+
+            
+                var html_7eadd95200d94320ba70ab7ac1e16fc0 = $('<div id="html_7eadd95200d94320ba70ab7ac1e16fc0" style="width: 100.0%; height: 100.0%;">Lattitude - Vivanta by Taj, Shop 4, Samarth Nagar Road, Nirala Bazar, Aurangabad</div>')[0];
+                popup_1da8eedb65d44570a1cd615884136bf2.setContent(html_7eadd95200d94320ba70ab7ac1e16fc0);
+            
+
+            circle_marker_e99ccf5db3434e6a91758f4147311ba1.bindPopup(popup_1da8eedb65d44570a1cd615884136bf2);
+
+            
+        
+    
+            var circle_marker_f4d9bdd521b84fdfba99b801aa290eb4 = L.circleMarker(
+                [19.8771,75.3667],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#cc3535",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_9ee6e6924c1641f895ed47a8d3283d1b);
+            
+    
+            var popup_3d9ec8054c434a07ba7625d1f025220a = L.popup({maxWidth: '300'});
+
+            
+                var html_53797e28794c4060b390898fa0c8cc18 = $('<div id="html_53797e28794c4060b390898fa0c8cc18" style="width: 100.0%; height: 100.0%;">Lattitude - Vivanta by Taj, Below Hotel Sai Palace, N1, Near Saraswat Bank, CIDCO, Aurangabad</div>')[0];
+                popup_3d9ec8054c434a07ba7625d1f025220a.setContent(html_53797e28794c4060b390898fa0c8cc18);
+            
+
+            circle_marker_f4d9bdd521b84fdfba99b801aa290eb4.bindPopup(popup_3d9ec8054c434a07ba7625d1f025220a);
+
+            
+        
+    
+            var circle_marker_e31b42e5963440019c0622304d2b9065 = L.circleMarker(
+                [19.8758,75.359],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#cc3535",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_9ee6e6924c1641f895ed47a8d3283d1b);
+            
+    
+            var popup_c305118ea1154aa99413c835580691c2 = L.popup({maxWidth: '300'});
+
+            
+                var html_267c2b80fc2b4d0db94d495ce5dcff0c = $('<div id="html_267c2b80fc2b4d0db94d495ce5dcff0c" style="width: 100.0%; height: 100.0%;">Lattitude - Vivanta by Taj, Welcome Hotel Rama International, Opposite High Court, CIDCO, Aurangabad</div>')[0];
+                popup_c305118ea1154aa99413c835580691c2.setContent(html_267c2b80fc2b4d0db94d495ce5dcff0c);
+            
+
+            circle_marker_e31b42e5963440019c0622304d2b9065.bindPopup(popup_c305118ea1154aa99413c835580691c2);
+
+            
+        
+    
+            var circle_marker_c74117743b5045ada83a84f393be210a = L.circleMarker(
+                [19.8769,75.3725],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#cc3535",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_9ee6e6924c1641f895ed47a8d3283d1b);
+            
+    
+            var popup_0ceb5fb50904419f997476c598bcf0e1 = L.popup({maxWidth: '300'});
+
+            
+                var html_cecbc7c171a045f693b51765cd67b8ce = $('<div id="html_cecbc7c171a045f693b51765cd67b8ce" style="width: 100.0%; height: 100.0%;">Lattitude - Vivanta by Taj, Ground Floor, Prozone Mall, MIDC Industrial Area, Chikalthana, Aurangabad</div>')[0];
+                popup_0ceb5fb50904419f997476c598bcf0e1.setContent(html_cecbc7c171a045f693b51765cd67b8ce);
+            
+
+            circle_marker_c74117743b5045ada83a84f393be210a.bindPopup(popup_0ceb5fb50904419f997476c598bcf0e1);
+
+            
+        
+    
+            var circle_marker_4c1dfa448523411d85036476bbdb3c5c = L.circleMarker(
+                [19.8749,75.3656],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#cc3535",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_9ee6e6924c1641f895ed47a8d3283d1b);
+            
+    
+            var popup_eec603202bb7435c9a5c66b1f9f75e99 = L.popup({maxWidth: '300'});
+
+            
+                var html_43008cc112cc4774b58da665c14303a8 = $('<div id="html_43008cc112cc4774b58da665c14303a8" style="width: 100.0%; height: 100.0%;">Lattitude - Vivanta by Taj, Lemon Tree Hotel, Airport Road, CIDCO, Aurangabad</div>')[0];
+                popup_eec603202bb7435c9a5c66b1f9f75e99.setContent(html_43008cc112cc4774b58da665c14303a8);
+            
+
+            circle_marker_4c1dfa448523411d85036476bbdb3c5c.bindPopup(popup_eec603202bb7435c9a5c66b1f9f75e99);
+
+            
+        
+    
+            var circle_marker_a9013f7f367d4615b1ef52140273e800 = L.circleMarker(
+                [19.8763,75.3481],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#cc3535",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_9ee6e6924c1641f895ed47a8d3283d1b);
+            
+    
+            var popup_2f42ce942cc04343aa14450bd1e81b2b = L.popup({maxWidth: '300'});
+
+            
+                var html_8023b32f852b44dc92e762d608b22a0d = $('<div id="html_8023b32f852b44dc92e762d608b22a0d" style="width: 100.0%; height: 100.0%;">Lattitude - Vivanta by Taj, Raghuveer Nagar, Jalna Road, Akashwani Square, Aurangabad</div>')[0];
+                popup_2f42ce942cc04343aa14450bd1e81b2b.setContent(html_8023b32f852b44dc92e762d608b22a0d);
+            
+
+            circle_marker_a9013f7f367d4615b1ef52140273e800.bindPopup(popup_2f42ce942cc04343aa14450bd1e81b2b);
+
+            
+        
+    
+            var circle_marker_bf26395ecdf44389bc7e8240b726c5de = L.circleMarker(
+                [19.8753,75.3342],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#cc3535",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_9ee6e6924c1641f895ed47a8d3283d1b);
+            
+    
+            var popup_9e082d0ee9454c768190b92367dda33e = L.popup({maxWidth: '300'});
+
+            
+                var html_e2a458aecc81475fbf8ea679bfb41787 = $('<div id="html_e2a458aecc81475fbf8ea679bfb41787" style="width: 100.0%; height: 100.0%;">Lattitude - Vivanta by Taj, Hotel Amarpreet, Pandit Nehru Marg, Jalna Road, Near, Mondha, Aurangabad</div>')[0];
+                popup_9e082d0ee9454c768190b92367dda33e.setContent(html_e2a458aecc81475fbf8ea679bfb41787);
+            
+
+            circle_marker_bf26395ecdf44389bc7e8240b726c5de.bindPopup(popup_9e082d0ee9454c768190b92367dda33e);
+
+            
+        
+    
+            var circle_marker_ebee21652f2244739b87fc342a8b20d2 = L.circleMarker(
+                [19.8802,75.3235],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#cc3535",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_9ee6e6924c1641f895ed47a8d3283d1b);
+            
+    
+            var popup_91c49b7c1da4442589aa52e9618759f6 = L.popup({maxWidth: '300'});
+
+            
+                var html_b38ea97fdda440b281a87e5ee0157991 = $('<div id="html_b38ea97fdda440b281a87e5ee0157991" style="width: 100.0%; height: 100.0%;">Lattitude - Vivanta by Taj, A1-A3, Motiwala Complex, Below KFC Restaurant, Nirala Bazar, Aurangabad</div>')[0];
+                popup_91c49b7c1da4442589aa52e9618759f6.setContent(html_b38ea97fdda440b281a87e5ee0157991);
+            
+
+            circle_marker_ebee21652f2244739b87fc342a8b20d2.bindPopup(popup_91c49b7c1da4442589aa52e9618759f6);
+
+            
+        
+    
+            var circle_marker_4da95ba1e9d744958db8016025435d13 = L.circleMarker(
+                [19.88,75.3233],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#cc3535",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_9ee6e6924c1641f895ed47a8d3283d1b);
+            
+    
+            var popup_34f33acfa56849da9ca8a4c19fd4a640 = L.popup({maxWidth: '300'});
+
+            
+                var html_b7e1f6987b884e548e1c3b53f0764e3f = $('<div id="html_b7e1f6987b884e548e1c3b53f0764e3f" style="width: 100.0%; height: 100.0%;">Lattitude - Vivanta by Taj, Art Executive Hotel, Nirala Bazar, Aurangabad</div>')[0];
+                popup_34f33acfa56849da9ca8a4c19fd4a640.setContent(html_b7e1f6987b884e548e1c3b53f0764e3f);
+            
+
+            circle_marker_4da95ba1e9d744958db8016025435d13.bindPopup(popup_34f33acfa56849da9ca8a4c19fd4a640);
+
+            
+        
+    
+            var circle_marker_47f82adb879e48ef8a6f92239d7d3a6a = L.circleMarker(
+                [19.8899,75.3131],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#cc3535",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_9ee6e6924c1641f895ed47a8d3283d1b);
+            
+    
+            var popup_1cb56ae275c94e36aeee19b868bced4b = L.popup({maxWidth: '300'});
+
+            
+                var html_05a72de8b7a64366ba3c021dde2331e8 = $('<div id="html_05a72de8b7a64366ba3c021dde2331e8" style="width: 100.0%; height: 100.0%;">Lattitude - Vivanta by Taj, Beside Panchakki Prabudha Nagar, Usmanpura, Aurangabad</div>')[0];
+                popup_1cb56ae275c94e36aeee19b868bced4b.setContent(html_05a72de8b7a64366ba3c021dde2331e8);
+            
+
+            circle_marker_47f82adb879e48ef8a6f92239d7d3a6a.bindPopup(popup_1cb56ae275c94e36aeee19b868bced4b);
+
+            
+        
+    
+            var circle_marker_aa9df89d2098448eba797ef433f04c9a = L.circleMarker(
+                [19.902,75.3202],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#cc3535",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_9ee6e6924c1641f895ed47a8d3283d1b);
+            
+    
+            var popup_1b408eb036d547009b8a8fdca7b421e9 = L.popup({maxWidth: '300'});
+
+            
+                var html_8cd57a0b9f7b4481bbd341a89bbeace2 = $('<div id="html_8cd57a0b9f7b4481bbd341a89bbeace2" style="width: 100.0%; height: 100.0%;">Lattitude - Vivanta by Taj, On The Way To Bibi Ka Maqbara, Begumpura, Shahgunj, Aurangabad</div>')[0];
+                popup_1b408eb036d547009b8a8fdca7b421e9.setContent(html_8cd57a0b9f7b4481bbd341a89bbeace2);
+            
+
+            circle_marker_aa9df89d2098448eba797ef433f04c9a.bindPopup(popup_1b408eb036d547009b8a8fdca7b421e9);
+
+            
+        
+    
+            var circle_marker_501f8cf2b21042e69e81bd5b8f0cd9ff = L.circleMarker(
+                [19.8751,75.3547],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#cc3535",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_9ee6e6924c1641f895ed47a8d3283d1b);
+            
+    
+            var popup_fa4b44cb1ccf4a8193321774e9587c38 = L.popup({maxWidth: '300'});
+
+            
+                var html_909b0481047a41b49330d88c24eb702b = $('<div id="html_909b0481047a41b49330d88c24eb702b" style="width: 100.0%; height: 100.0%;">Lattitude - Vivanta by Taj, Hotel Atithi, Seven Hills, Jalna Road, CIDCO, Aurangabad</div>')[0];
+                popup_fa4b44cb1ccf4a8193321774e9587c38.setContent(html_909b0481047a41b49330d88c24eb702b);
+            
+
+            circle_marker_501f8cf2b21042e69e81bd5b8f0cd9ff.bindPopup(popup_fa4b44cb1ccf4a8193321774e9587c38);
+
+            
+        
+    
+            var circle_marker_e4158ce071414e6abff53284070423ff = L.circleMarker(
+                [19.9043,75.3565],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#cc3535",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_9ee6e6924c1641f895ed47a8d3283d1b);
+            
+    
+            var popup_1c5b6b0d337f46ca8c2132c544cef01e = L.popup({maxWidth: '300'});
+
+            
+                var html_f6f7577f2b864d29b786eccec3ad676d = $('<div id="html_f6f7577f2b864d29b786eccec3ad676d" style="width: 100.0%; height: 100.0%;">Lattitude - Vivanta by Taj, Vivanta by Taj, Rauza Baugh, CIDCO, Aurangabad</div>')[0];
+                popup_1c5b6b0d337f46ca8c2132c544cef01e.setContent(html_f6f7577f2b864d29b786eccec3ad676d);
+            
+
+            circle_marker_e4158ce071414e6abff53284070423ff.bindPopup(popup_1c5b6b0d337f46ca8c2132c544cef01e);
+
+            
+        
+</script>
